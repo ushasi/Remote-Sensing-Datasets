@@ -57,13 +57,17 @@ Local climate zone classification, 400k 32x32 pixel chips covering 42 cities (LC
  
 # 2. Retrieval
  
-  ## :satellite: Radar Satellite Datasets : coming up!!
+  ## :satellite: Radar Satellite Datasets : 
+ - coming up!!
  
-  ## :satellite: Optical Satellite Datasets : coming up!!
+  ## :satellite: Optical Satellite Datasets : 
+ - coming up!!
  
-  ## :satellite: Multi-sensor Satellite Datasets : coming up!!
+  ## :satellite: Multi-sensor Satellite Datasets : 
+ - coming up!!
  
-  ## :satellite: Cross-sensor Datasets : coming up!!
+  ## :satellite: Cross-sensor Datasets : 
+ - coming up!!
  
  
  
