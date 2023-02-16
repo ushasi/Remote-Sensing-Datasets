@@ -6,11 +6,11 @@ A list of radar and optical satellite datasets for detection, classification, se
 ![GitHub latest commit](https://img.shields.io/github/last-commit/ushasi/Remote-Sensing-Datasets?style=plastic&service=github)
 
 # Satellite imagery datasets according to their corresponding tasks.<a name="TOP"></a> 
-A list of radar and optical satellite datasets for computer vision and deep learning. Categories: Instance segmentation, object detection, semantic segmentation, scene classification, other.
+A list of radar and optical satellite datasets for computer vision and deep learning. Categories: Instance segmentation, object detection, semantic segmentation, scene classification, retrieval, other.
 
 <div align="justify">
 
-*The specific datasets could not be accessed. Parts of information on the repository credits are from [here](https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships/blob/main/README.md#SSDD), [here](), and [here]().
+*The specific datasets could not be accessed. Parts of information on the repository credits are from [here](https://github.com/jasonmanesis/Satellite-Imagery-Datasets-Containing-Ships/blob/main/README.md#SSDD), [here](https://github.com/chrieke/awesome-satellite-imagery-datasets), and [here]().
 
 # Satellite imagery datasets containing aerial view images.<a name="TOP"></a> 
 A list of radar and optical satellite datasets for aerial scene isntance detection, classification, semantic segmentation and instance segmentation tasks.
