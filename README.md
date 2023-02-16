@@ -5,8 +5,8 @@ A list of radar and optical satellite datasets for detection, classification, se
 ![GitHub latest commit](https://img.shields.io/maintenance/yes/2023?style=plastic&service=github)
 ![GitHub latest commit](https://img.shields.io/github/last-commit/JasonManesis/Satellite-Imagery-Datasets-Containing-Ships?style=plastic&service=github)
 
-# Satellite imagery datasets containing ships.<a name="TOP"></a> 
-A list of radar and optical satellite datasets for ship detection, classification, semantic segmentation and instance segmentation tasks.
+# Satellite imagery datasets according to their corresponding tasks.<a name="TOP"></a> 
+A list of radar and optical satellite datasets for computer vision and deep learning. Categories: Instance segmentation, object detection, semantic segmentation, scene classification, other.
 
 <div align="justify">
 
@@ -49,6 +49,12 @@ A list of radar and optical satellite datasets for aerial scene isntance detecti
  
 # 1. Instance Segmentation
 
+## 🛰: Radar Satellite Datasets:
+                                  
+* [**HRSID (High-Resolution SAR Images Dataset) - 2020, Wei et al.**](#HRSID)
+* [**SSDD (SAR Ship Detection Dataset) - 2021, Zhang et al.**](#SSDD1)
+ 
+ 
 ## :satellite: Optical Satellite Datasets : 
 
 - [**PASTIS: Panoptic Agricultural Satellite Time Series**](https://github.com/VSainteuf/pastis-benchmark) Sentinel-2 image chip timeseries, panoptic labels (instance index + semantic label for each pixel).
@@ -94,7 +100,16 @@ Denmark: 293 crop/vegetation catgeories, 600k parcels. Netherlands: 294 crop/veg
 
 ## :satellite: Radar Satellite Datasets : 
 
-
+* [**SSDD (SAR Ship Detection Dataset) - 2017, Li et al.**](#SSDD) 
+* [**OpenSARship-1.0, 2.0- 2017, Huang et al.**](#OpenSARship-1.0)
+* [**SAR-Ship-Dataset - 2019, Wang et al.**](#SAR-Ship-Dataset)                            
+* [**AIR-SARShip -1.0, 2.0 - 2019, Sun et al.**](#AIR-SARShip-1.0)                                       
+* [**HRSID (High-Resolution SAR Images Dataset) - 2020, Wei et al.**](#HRSID) 
+* [**LS-SSDD-v1.0 (Large-Scale SAR Ship Detection Dataset) - 2020, Zhang et al.**](#LS-SSDD-v1.0)
+* [**SSDD (SAR Ship Detection Dataset) - 2021, Zhang et al.**](#SSDD1)
+* [**DSSDD (Dual-polarimetric SAR Ship Detection Dataset) - 2021, Hu et al.**](#DSSDD)  
+* [**SRSDD-v1.0 (SAR Rotation Ship Detection Dataset) - 2021, Lei et al.**](#SRSDD-v1.0) 
+* [**xView3-SAR (Multi-modal SAR Ship Detection + Characterization Dataset) - 2022, Paolo, Lin, Gupta, et. al.**](#xView3-SAR)
 
 ## :satellite: Optical Satellite Datasets : 
 
@@ -102,112 +117,108 @@ Denmark: 293 crop/vegetation catgeories, 600k parcels. Netherlands: 294 crop/veg
 103 images of worlwide airports (Pleiades, 0.5m res., 2560px).
 - [**Airbus Oil Storage Detection**](https://www.kaggle.com/airbusgeo/airbus-oil-storage-detection-dataset) 
 Oil storage tank annotations, 98 worldwide images (SPOT, 1.2m res., 2560px).
-
-
+- [**AFO - Aerial dataset of floating objects**](https://www.kaggle.com/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects) 
+3647 drone images from 50 scenes, 39991 objects with 6 categories.
+- [**xView 2018 Detection Challenge**](http://xviewdataset.org)  
+60 categories from helicopter to stadium, 1 million instances, Worldview-3 imagery (0.3m res.). 
+- [**Open AI Challenge: Aerial Imagery of South Pacific Islands**](https://docs.google.com/document/d/16kKik2clGutKejU8uqZevNY6JALf4aVk2ELxLeR-msQ/edit) 
+Tree position & 4 tree species, RGB UAV imagery (0.4m/0.8m res.), multiple AOIs in Tonga   
+- [**NOAA Fisheries Steller Sea Lion Population Count**](https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count) 
+5 sea lion categories, ~ 80k instances, ~ 1k aerial images.
+- [**Stanford Drone Data**](http://cvgl.stanford.edu/projects/uav_data/?source=post_page---------------------------)   
+60 aerial UAV videos over Stanford campus and bounding boxes, 6 classes.  
+- [**HRSC2016 (High Resolution Ship Collection 2016) - 2016, Liu et al.**](#HRSC2016) 
+- [**Airbus Ship Detection Challenge Dataset - 2018, Kaggle**](#Airbus) 
+- [**xView Dataset  - 2018, Lam et al.**](#xView)  
+- [**DOTA (Dataset for Object deTection in Aerial images) - 2018, Xia et al.**](#DOTA)
+- [**TGRS-HRRSD (High-Resolution Remote Sensing object Detection) - 2018, Kaggle**](#TGRS)
+- [**MASATI-v2 (MAritime SATellite Imagery dataset) - 2018,  Gallego et al.**](#MASATI)
+- [**DIOR(object Detection In Optical Remote sensing images) - 2019, Li et al.**](#DIOR)    
+- [**FGSD (Fine-Grained Ship Detection) - 2020, Chen et al.**](#FGSD) 
+- [**PSDS (Peruvian Ship Data Set) + MSDS (Mini Ship Data Set) - 2020, Cordova et al.**](#PSDS)
+- [**ShipRSImageNet - 2021, Zhang et al.**](#ShipRSImageNet)    
+- [**S2-SHIPS - 2021, Ciocarlan et al.**](#S2ships)
+- [**GF1-LRSD - 2021, Wu et al.**](#GF1LRSD) 
+- [**VHRShips - 2022, Kizilkaya et al.**](#VHRShips)
+- [**Cars Overhead With Context (COWC)**](https://gdo152.llnl.gov/cowc/) 
+32k car bounding boxes, aerial imagery (0.15m res.).
 
 ## :satellite: Multi-sensor Satellite Datasets : 
 
 - [**xView3 Dark Vessel Detection 2021**](https://iuu.xview.us/) 
 Maritime object bounding boxes for 1k Sentinel-1 scenes (VH & VV polarizations), ancillary data (land/ice mask, bathymetry, wind speed, direction, quality).
-
-
-
-  
-
-  
-
-
-- [**AFO - Aerial dataset of floating objects**](https://www.kaggle.com/jangsienicajzkowy/afo-aerial-dataset-of-floating-objects) 
-3647 drone images from 50 scenes, 39991 objects with 6 categories (human, wind/sup-board, boat, bouy, sailboat, kayak
-  
-- [**NEON Tree Crowns Dataset**](https://zenodo.org/record/3765872#.YHs-MBMzbUI) *(Weinstein et al., 2020)*     
-Individual tree crown objects, height&area estimates, 100 million instances, 37 geographic sites across the US, [DeepForest](https://github.com/weecology/DeepForest) Python package, Paper: [Weinstein et al. 2020](https://elifesciences.org/articles/62922)    
-    
-- [**xView 2018 Detection Challenge**](http://xviewdataset.org) *(DIUx, Jul 2018)*   
-60 categories from helicopter to stadium, 1 million instances, Worldview-3 imagery (0.3m res.), COCO data format, pre-trained Tensorflow and Pytorch baseline models, Paper: [Lam et al. 2018](https://arxiv.org/abs/1802.07856)   
-
-- [**Open AI Challenge: Aerial Imagery of South Pacific Islands**](https://docs.google.com/document/d/16kKik2clGutKejU8uqZevNY6JALf4aVk2ELxLeR-msQ/edit) *(WeRobotics & Worldbank, May 2018)*  
-Tree position & 4 tree species, RGB UAV imagery (0.4m/0.8m res.), multiple AOIs in Tonga   
-
-- [**NIST DSE Plant Identification with NEON Remote Sensing Data**](https://www.ecodse.org) *(inria.fr, Oct 2017)*  
+- [**NEON Tree Crowns Dataset**](https://zenodo.org/record/3765872#.YHs-MBMzbUI)    
+Individual tree crown objects, height&area estimates, 100 million instances, 37 geographic sites across the US, [DeepForest](https://github.com/weecology/DeepForest), Has LiDAR data. 
+- [**NIST DSE Plant Identification with NEON Remote Sensing Data**](https://www.ecodse.org) 
 Tree position, tree species and crown parameters, hyperspectral (1m res.) & RGB imagery (0.25m res.), LiDAR point cloud and canopy height model   
 
-- [**NOAA Fisheries Steller Sea Lion Population Count**](https://www.kaggle.com/c/noaa-fisheries-steller-sea-lion-population-count) *(NOAA, Jun 2017)*  
-5 sea lion categories, ~ 80k instances, ~ 1k aerial images, Kaggle kernels   
-
-- [**Stanford Drone Data**](http://cvgl.stanford.edu/projects/uav_data/?source=post_page---------------------------) *(Stanford University, Oct 2016)*   
-60 aerial UAV videos over Stanford campus and bounding boxes, 6 classes (Pedestrian, Biker, Skateboarder, Cart, Car, Bus), Paper: [Robicquet et al. 2016](https://infoscience.epfl.ch/record/230262/files/ECCV16social.pdf;)    
-
-- [**Cars Overhead With Context (COWC)**](https://gdo152.llnl.gov/cowc/) *(Lawrence Livermore National Laboratory, Sep 2016)*   
-32k car bounding boxes, aerial imagery (0.15m res.), 6 cities, Paper: [Mundhenk et al. 2016](https://arxiv.org/abs/1609.04453)    
-
+  
 
 ## 3. Semantic Segmentation
 
-- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0) *(University of Maryland, Jun 2021)*  
-  2343 image chips (drone imagery), 10 landcover categories (background, water, building flooded, building non-flooded, 
-  road-flooded, ...). Paper: [Rahnemoonfar et al., 2021](https://arxiv.org/abs/2012.02951)
+## :satellite: Radar Satellite Datasets : 
+ 
+ 
+## :satellite: Optical Satellite Datasets : 
 
-- [**LoveDA**](https://github.com/Junjue-Wang/LoveDA) *(Wuhan University, Oct 2021)*  
-5987 image chips (Google Earth), 7 landcover categories, 166768 labels, 3 cities in China. Paper: [Wang et al., 2021](https://arxiv.org/abs/2110.08733)    
-  
-- [**FloodNet Challenge**](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(UMBC, Microsoft, Texas A&M, Dewberry, May 2021)*  
-2343 UAV images from after Hurricane Harvey, landcover labels (10 categories, e.g. building flooded, building non-flooded, road-flooded, ..), 2 competition tracks (Binary & semantic flood classification; Object counting & condition recognition)  
-  
-- [**Dynamic EarthNet Challenge**](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) *(Planet, DLR, TUM, April 2021)*  
+- [**FloodNet**](https://github.com/BinaLab/FloodNet-Supervised_v1.0)  
+  2343 image chips (drone imagery), 10 landcover categories.
+- [**LoveDA**](https://github.com/Junjue-Wang/LoveDA)  
+5987 image chips (Google Earth), 7 landcover categories.
+- [**FloodNet Challenge**](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) 
+2343 UAV images, 2 competition tracks (Binary & semantic flood classification; Object counting & condition recognition)  
+- [**Dynamic EarthNet Challenge**](http://www.classic.grss-ieee.org/earthvision2021/challenge.html) 
 Weekly Planetscope time-series (3m res.) over 2 years, 75 aois, landcover labels (7 categories), 2 competition tracks (Binary land cover classification & multi-class change detection)  
-
-- [**Sentinel-2 Cloud Mask Catalogue**](https://zenodo.org/record/4172871) *(Francis, A., et al., Nov 2020)*
-513 cropped subscenes (1022x1022 pixels) taken randomly from entire 2018 Sentinel-2 archive. All bands resampled to 20m, stored as numpy arrays. Includes clear, cloud and cloud-shadow classes. Also comes with binary classification tags for each subscene, describing what surface types, cloud types, etc. are present.
-
-- [**MiniFrance**](https://ieee-dataport.org/open-access/minifrance) *(Université Bretagne-Sud and ONERA, Jul 2020)*  
-  2000 very high resolution aerial images over 16 cities in France (50cm res., from IGN BDORTHO), 16 landcover categories (Urban, Industrial, Pastures, Forests, etc. from Copernicus UrbanAtlas 2012), designed for _semi-supervised_ semantic segmentation. Paper: [Castillo-Navarro et al., 2021](https://hal.archives-ouvertes.fr/hal-03132924)
-
-- [**LandCoverNet: A Global Land Cover Classification Training Dataset**](https://doi.org/10.34911/rdnt.d2ce8i) *(Alemohammad S.H., et al., Jul 2020)*
-Version 1.0 of the dataset that contains data across Africa, (20% of the global dataset). 1980 image chips of 256 x 256 pixels in V1.0 spanning 66 tiles of Sentinel-2. Classes: water, natural bare ground, artificial bare ground, woody vegetation, cultivated vegetation, (semi) natural vegetation, and permanent snow/ice. Citation: [Alemohammad S.H., et al., 2020](https://doi.org/10.34911/rdnt.d2ce8i) and [blog post](https://medium.com/radiant-earth-insights/radiant-earth-foundation-releases-the-benchmark-training-data-landcovernet-for-africa-7e8906e846a3)
-
-- [**LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands and Water from Aerial Imagery**](http://landcover.ai/) *(Boguszewski, A., et al., May 2020)*
-41 orthophotos (9000x9000 px) over Poland, Aerial Imagery (25cm & 50cm res.), manual segmentations masks for Buildings, Woodland and Water, Paper: [Boguszewski et al., 2020](https://arxiv.org/abs/2005.02264)
-
-- [**95-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/95-Cloud-An-Extension-to-38-Cloud-Dataset) *(S. Mohajerani et. all, Jan 2020)*  
-34701 manually segmented 384x384 patches with cloud masks, Landsat 8 imagery (R,G,B,NIR; 30 m res.), Paper: [Mohajerani et al. 2021](https://ieeexplore.ieee.org/document/9394710)
-
-- [**Open Cities AI Challenge**](https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/page/150/) *(GFDRR, Mar 2020)* .   
-790k building footprints from Openstreetmap (2 label quality categories), aerial imagery (0.03-0.2m resolution, RGB, 11k 1024x1024 chips, COG format), 10 cities in Africa.
-
-- [**DroneDeploy Segmentation Dataset**](https://github.com/dronedeploy/dd-ml-segmentation-benchmark) *(DroneDeploy, Dec 2019)*   
-Drone imagery (0.1m res., RGB), labels (7 land cover catageories: building, clutter, vegetation, water, ground, car) & elevation data, baseline model implementation.
-
-- [**SkyScapes: Urban infrastructure & lane markings**](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12760/22294_read-58694/) *(DLR, Nov 2019)*   
-Highly accurate street lane markings (12 categories e.g. dash line, long line, zebra zone) & urban infrastructure (19 categories e.g. buildings, roads, vegetation). Aerial imagery (0.13 m res.) for 5.7 km2 of Munich, Germany. Paper: [Azimi et al. 2019](http://openaccess.thecvf.com/content_ICCV_2019/papers/Azimi_SkyScapes__Fine-Grained_Semantic_Understanding_of_Aerial_Scenes_ICCV_2019_paper.pdf)
-
-- [**Open AI Challenge: Caribbean**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/143/) *(MathWorks, WeRobotics, Wordlbank, DrivenData, Dec 2019)*   
-Predict building roof type (5 categories, e.g. concrete, metal etc.) of provided building footprints (22,553), RGB UAV imagery (4cm res., 7 areas in 3 Carribbean countries)
-
-- [**SpaceNet 5: Automated Road Network Extraction & Route Travel Time Estimation**](https://spacenet.ai/sn5-challenge/) *(CosmiQ Works, Maxar, Intel, AWS, Sep 2019)*  
-2300 image chips, street geometries with location, shape and estimated travel time, 3/8band Worldview-3 imagery (0.3m res.), 4 global cities, 1 holdout city for leaderboard evaluation, [APLS](https://github.com/CosmiQ/apls) metric, [baseline model](https://github.com/CosmiQ/cresi)    
-
-- [**SEN12MS**](https://mediatum.ub.tum.de/1474000) *(TUM, Jun 2019)*  
-180,748 corresponding image triplets containing Sentinel-1 (VV&VH), Sentinel-2 (all bands, cloud-free), and MODIS-derived land cover maps (IGBP, LCCS, 17 classes, 500m res.). All data upsampled to 10m res., georeferenced, covering all continents and meterological seasons, Paper: [Schmitt et al. 2018](https://arxiv.org/abs/1906.07789)  
-
-- [**Slovenia Land Cover Classification**](http://eo-learn.sentinel-hub.com) *(Sinergise, Feb 2019)*  
-10 land cover classes, temporal stack of hyperspectral Sentinel-2 imagery (R,G,B,NIR,SWIR1,SWIR2; 10 m res.) for year 2017 with cloud masks, Official Slovenian land use land cover layer as ground truth.  
-
-- [**ALCD Reference Cloud Masks**](https://zenodo.org/record/1460961#.XYCTRzYzaHt) *(CNES, Oct 2018)*  
+- [**Sentinel-2 Cloud Mask Catalogue**](https://zenodo.org/record/4172871) 
+513 cropped subscenes (1022x1022 pixels) taken randomly from entire 2018 Sentinel-2 archive. 
+- [**MiniFrance**](https://ieee-dataport.org/open-access/minifrance)
+  2000 very high resolution aerial images over 16 cities in France (50cm res., from IGN BDORTHO).
+- [**LandCoverNet: A Global Land Cover Classification Training Dataset**](https://doi.org/10.34911/rdnt.d2ce8i) 
+1980 image chips of 256 x 256 pixels in V1.0 spanning 66 tiles of Sentinel-2. 
+- [**LandCover.ai: Dataset for Automatic Mapping of Buildings, Woodlands and Water from Aerial Imagery**](http://landcover.ai/) 
+41 orthophotos (9000x9000 px) over Poland, Aerial Imagery (25cm & 50cm res.)
+ - [**95-Cloud: A Cloud Segmentation Dataset**](https://github.com/SorourMo/95-Cloud-An-Extension-to-38-Cloud-Dataset)  
+34701 manually segmented 384x384 patches with cloud masks, Landsat 8 imagery (R,G,B,NIR; 30 m res.)
+- [**SkyScapes: Urban infrastructure & lane markings**](https://www.dlr.de/eoc/en/desktopdefault.aspx/tabid-12760/22294_read-58694/) 
+Highly accurate street lane markings & urban infrastructure . Aerial imagery (0.13 m res.).
+- [**Open AI Challenge: Caribbean**](https://www.drivendata.org/competitions/58/disaster-response-roof-type/page/143/)
+Predict building roof type (22,553), RGB UAV imagery (4cm res.).
+- [**ALCD Reference Cloud Masks**](https://zenodo.org/record/1460961#.XYCTRzYzaHt) 
 8 classes (inc. cloud and cloud shadow) for 38 Sentinel-2 scenes (10 m res.).
-Manual labeling & active learning, Paper: [Baetens et al. 2019](https://www.mdpi.com/2072-4292/11/4/433)
+ - [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) 
+2 main categories corn and soybeans, Landsat 8 imagery (30m res.).
+ - [**RoadNet**](https://github.com/yhlleo/RoadNet) 
+Road network labels, high-res Google Earth imagery, 21 regions.
+- [**SpaceNet 3: Road Network Detection**](https://spacenet.ai/spacenet-roads-dataset/) 
+8000 km of roads in 5 city aois, 3/8band Worldview-3 imagery (0.3m res.). 
+ 
+ 
+## :satellite: Multi-sensor Satellite Datasets : 
+ - [**Open Cities AI Challenge**](https://www.drivendata.org/competitions/60/building-segmentation-disaster-resilience/page/150/)  
+790k building footprints from Openstreetmap (2 label quality categories), aerial imagery (0.03-0.2m resolution, RGB, 11k 1024x1024 chips, COG format).
+- [**DroneDeploy Segmentation Dataset**](https://github.com/dronedeploy/dd-ml-segmentation-benchmark) 
+Drone imagery (0.1m res., RGB), labels & elevation data, baseline model implementation.
+- [**SpaceNet 5: Automated Road Network Extraction & Route Travel Time Estimation**](https://spacenet.ai/sn5-challenge/) 
+2300 image chips, street geometries with location, shape and estimated travel time, 3/8band Worldview-3 imagery (0.3m res.).
+- [**SEN12MS**](https://mediatum.ub.tum.de/1474000)
+180,748 corresponding image triplets containing Sentinel-1 (VV&VH), Sentinel-2 (all bands, cloud-free), and MODIS-derived land cover maps (IGBP, LCCS, 17 classes, 500m res.). 
+- [**Slovenia Land Cover Classification**](http://eo-learn.sentinel-hub.com)
+10 land cover classes, temporal stack of hyperspectral Sentinel-2 imagery.
+- [**Urban 3D Challenge**](https://spacenet.ai/the-ussocom-urban-3d-competition/)  
+157k building footprint masks, RGB orthophotos (0.5m res.), DSM/DTM.
+  
+  
 
-- [**Agricultural Crop Cover Classification Challenge**](https://crowdanalytix.com/contests/agricultural-crop-cover-classification-challenge) *(CrowdANALYTIX, Jul 2018)*   
-2 main categories corn and soybeans, Landsat 8 imagery (30m res.), USDA Cropland Data Layer as ground truth.
 
-- [**RoadNet**](https://github.com/yhlleo/RoadNet) *(Wuhan, Oct 2018)*  
-Road network labels, high-res Google Earth imagery, 21 regions, Paper: [Liu et al. 2018](https://ieeexplore.ieee.org/document/8506600)
 
-- [**SpaceNet 3: Road Network Detection**](https://spacenet.ai/spacenet-roads-dataset/) *(CosmiQ Works, Radiant Solutions, Feb 2018)*   
-8000 km of roads in 5 city aois, 3/8band Worldview-3 imagery (0.3m res.), SpaceNet Challenge Asset Library, Paper: [Van Etten et al. 2018](https://arxiv.org/abs/1807.01232)   
 
-- [**Urban 3D Challenge**](https://spacenet.ai/the-ussocom-urban-3d-competition/) *(USSOCOM, Dec 2017)*    
-157k building footprint masks, RGB orthophotos (0.5m res.), DSM/DTM, 3 cities, SpaceNet Challenge Asset Library   
+
+
+
+
+
+
+
 
 - [**DSTL Satellite Imagery Feature Detection Challenge**](https://www.kaggle.com/c/dstl-satellite-imagery-feature-detection) *(Dstl, Feb 2017)*  
 10 land cover categories from crops to vehicle small, 57 1x1km images, 3/16-band Worldview 3 imagery (0.3m-7.5m res.), Kaggle kernels   
