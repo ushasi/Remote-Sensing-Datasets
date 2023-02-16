@@ -19,8 +19,8 @@ A list of radar and optical satellite datasets for aerial scene isntance detecti
  # 1. Scene classification
 
  
- ## :satellite: Radar Satellite Datasets : 
-* [**FUSAR-Ship Dataset v1.0 - 2020, Hou et al.**](#FUSAR-Ship) ↦ Classification 
+  ## :satellite: Radar Satellite Datasets : 
+- [**FUSAR-Ship Dataset v1.0 - 2020, Hou et al.**](#FUSAR-Ship) ↦ Classification 
 - [**Statoil/C-CORE Iceberg Classifier Challenge**](https://www.kaggle.com/c/statoil-iceberg-classifier-challenge)
 2 categories ship and iceberg, 2-band HH/HV polarization SAR imagery.
  
@@ -57,13 +57,13 @@ Local climate zone classification, 400k 32x32 pixel chips covering 42 cities (LC
  
 # 2. Retrieval
  
- ## :satellite: Radar Satellite Datasets : coming up!!
+  ## :satellite: Radar Satellite Datasets : coming up!!
  
- ## :satellite: Optical Satellite Datasets : coming up!!
+  ## :satellite: Optical Satellite Datasets : coming up!!
  
- ## :satellite: Multi-sensor Satellite Datasets : coming up!!
+  ## :satellite: Multi-sensor Satellite Datasets : coming up!!
  
- ## :satellite: Cross-sensor Datasets : coming up!!
+  ## :satellite: Cross-sensor Datasets : coming up!!
  
  
  
